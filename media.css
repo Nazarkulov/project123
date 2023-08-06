@@ -1,0 +1,790 @@
+ @media (max-width: 1200px) {
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  img {
+    width: 40%;
+  }
+
+  .should_right_block h1 {
+    font-size: 4vw;
+    line-height: 50px;
+  }
+  .should_right_block p {
+    font-size: 1.2vw;
+    line-height: 27px;
+  }
+  .should_right_block button {
+    font-size: 16px;
+    font-weight: 270;
+    width: 183px;
+    height: 46px;
+  }
+  .should_h3 h3 {
+    width: 30%;
+  }
+  .should_block img {
+    width: 40%;
+  }
+  .jacob_arrow {
+    width: 89px;
+    height: 89px;
+  }
+  #every {
+    margin: 20px 0;
+    padding: 40px 0px;
+    margin-left: -20px;
+  }
+
+  .bus {
+    width: 355px;
+    height: 306px;
+    padding: 38px 0 0 38px;
+  }
+  .bus h2 {
+    font-size: 2.35vw;
+    line-height: 34px;
+  }
+  .star {
+    width: 6%;
+  }
+  .sub_text h1 {
+    font-size: 4.5vw;
+    line-height: 46px;
+  }
+  .sub {
+    padding: 65px 55px;
+  }
+  .name {
+    width: 30vw;
+    height: 7vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+    max-width: 1024px;
+  }
+  img {
+    width: 50%;
+  }
+  .h__img {
+    width: 70%;
+  }
+  .h_left h1 {
+    font-size: 5.7vw;
+  }
+  .latest_btn h2 {
+    font-size: 5vw;
+  }
+  .latest_btn button {
+    font-size: 1.7vw;
+    width: 17%;
+    height: 46px;
+  }
+  .should_block {
+    width: 100%;
+    gap: 90px;
+    & img {
+      width: 37%;
+    }
+  }
+  .j_img {
+    width: 43%;
+  }
+  .j_left h1 {
+    font-size: 5vw;
+  }
+  #sub {
+    padding: 80px 0;
+  }
+  .sub {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 19px;
+  }
+  .sub_text h1 {
+    font-size: 4vw;
+    line-height: 45px;
+    & br {
+      display: none;
+    }
+  }
+  .name {
+    width: 44%;
+    border-radius: 14px;
+    height: 65px;
+    & input {
+      height: 40px;
+    }
+  }
+  .sub_left button {
+    height: 38px;
+    font-size: 1.5vw;
+  }
+  .podcast {
+    margin-left: 20px;
+  }
+  .bus {
+    padding: 32px 0 0 32px;
+    width: 299px;
+    height: 271px;
+  }
+  .bus h5 {
+    font-size: 2vw;
+  }
+  .bus h2 {
+    font-size: 2.6vw;
+    margin: 12px 0;
+  }
+  .nav1 {
+    margin-right: 100px;
+  }
+  .nav1 {
+    margin-right: 10px;
+    padding: 13px;
+  }
+  .nav1 a {
+    font-size: 12px;
+  }
+  .every {
+    gap: 5px;
+  }
+  .header-nav a:nth-child(1) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 95%;
+    max-width: 992px;
+  }
+  img {
+    width: 44%;
+  }
+  .should_right_block h5 {
+    margin: 28px 0 12px 0;
+  }
+  .should_right_block h1 {
+    font-size: 3.5vw;
+    line-height: 46px;
+  }
+  .s__p {
+    font-size: 1vw;
+  }
+  .should_right_block p {
+    margin: 19px 0 18px 0;
+    font-size: 1.3vw;
+    line-height: 27px;
+  }
+
+  .should_right_block button {
+    width: 40%;
+    font-size: 1.4vw;
+    height: 4vh;
+  }
+  .should_block img {
+    width: 36%;
+  }
+  .should_block {
+    gap: 55px;
+  }
+  .should_h3 h3 {
+    width: 37%;
+  }
+  .j_left p {
+    font-size: 1.9vw;
+  }
+  .sub_text h1 {
+    & br {
+      display: none;
+    }
+  }
+  .sub {
+    height: 380px;
+    gap: 0;
+  }
+  .podcast {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .bus {
+    width: 42%;
+    height: 300px;
+  }
+  .bus h2 {
+    font-size: 3.7vw;
+    line-height: 40px;
+  }
+  .bus h5 {
+    font-size: 2.7vw;
+  }
+  .star {
+    width: 30px;
+    height: 27px;
+  }
+  .every {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  }
+  .footer-nav {
+    position: relative;
+  }
+  .f_img {
+    left: -51.5vw;
+    bottom: 6vw;
+    position: absolute;
+    width: 60%;
+  }
+  .nav1 a {
+    font-size: 2vw;
+  }
+  .nav {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    max-width: 768px;
+  }
+  .f_img {
+    left: -45.8vw;
+    bottom: 4vw;
+    position: absolute;
+    width: 65%;
+  }
+  .podcast {
+    gap: 40px;
+  }
+  .j_left p {
+    margin: 18px 0 13px 0;
+  }
+  .jacob_arrow {
+    width: 59px;
+    height: 59px;
+  }
+  .should_block img {
+    width: 40%;
+  }
+.should_right_block h3 {
+    width: 63px;
+    height: 20px;
+    font-size: 1.7vw;
+  }
+  .should_h3 h3 {
+    width: 40%;
+    height: 22.5px;
+  }
+  .should_right_block h5 {
+    font-size: 2vw;
+  }
+  .should_right_block h1 {
+    font-size: 3.6vw;
+    line-height: 34px;
+  }
+  .should_right_block p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 98%;
+    max-width: 576px;
+  }
+  .header-nav a:nth-child(1) {
+    margin-right: 0;
+  }
+  .header-nav a {
+    padding: 13px 0;
+  }
+  .header h1 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .header-nav {
+    gap: 0;
+    position: absolute;
+    left: -250px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: goldenrod;
+    width: 250px;
+    height: 200px;
+    padding: 56px 40px 20px 20px;
+  }
+  img {
+    width: 40%;
+  }
+  .hero {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .h_left h1 {
+    font-size: 5vw;
+  }
+  .h_left h4 {
+    font-size: 3.3vw;
+    margin: 53px 0 19px 0;
+  }
+  .h_left img {
+    width: 80%;
+  }
+  .latest_btn h2 {
+    font-size: 5vw;
+    letter-spacing: 1px;
+  }
+  .latest_btn {
+    margin: 30px 20px;
+  }
+  .latest_btn button {
+    font-size: 1.8vw;
+    width: 18%;
+    height: 34px;
+  }
+  .should_block {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 30px;
+    width: 97.5%;
+    margin-left: 2%;
+    margin-bottom: 30px;
+    padding: 30px 0;
+  }
+  .should_right_block h1 {
+    font-size: 5vw;
+  }
+  .should_right_block h3 {
+    margin-left: 44%;
+  }
+  .should_h3 h3 {
+    width: 20%;
+    margin-left: 40%;
+  }
+  .should_right_block h5 {
+    margin: 17px 0;
+  }
+  .should_right_block button {
+    width: 10em;
+    font-size: 1rem;
+  }
+  #jacob {
+    margin: 80px 20px 60px 0;
+  }
+  .j_left p {
+    font-size: 2vw;
+    line-height: 20px;
+  }
+  .jacob_arrow {
+    width: 49px;
+    height: 49px;
+  }
+  .sub {
+    width: 98%;
+    height: 330px;
+    padding: 50px 0 50px 33px;
+    margin-left: 2%;
+  }
+  .sub_text h1 {
+    font-size: 2em;
+  }
+  .name {
+    width: 40vw;
+  }
+  .name input {
+    font-size: 3.4vw;
+  }
+  .sub_left button {
+    height: 2em;
+    font-size: 1rem;
+  }
+  .podcast {
+    display: flex;
+    flex-direction: column;
+  }
+  .bus {
+    width: 25em;
+  }
+  .bus h2 {
+    font-size: 2.5rem;
+  }
+  .bus h5 {
+    font-size: 2em;
+  }
+  #footer {
+    padding: 30px 50px;
+  }
+  .f_img {
+    display: none;
+  }
+  .nav1 a {
+    font-size: 1em;
+  }
+  .footer_cast h1 {
+    font-size: 2em;
+  }
+  .icons a {
+    font-size: 1.3em;
+  }
+  .icons {
+    gap: 10px;
+  }
+}
+ @media (max-width: 451px) {
+  .container {
+    width: 98%;
+    max-width: 451px;
+  }
+  .header-nav a:nth-child(1) {
+    margin-right: 0;
+  }
+  .header-nav a {
+    padding: 13px 0;
+  }
+  .header h1 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2em;
+  }
+  .header-nav {
+    gap: 0;
+    position: absolute;
+    left: -250px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: goldenrod;
+    width: 250px;
+    height: 200px;
+    padding: 56px 40px 20px 20px;
+  }
+  img {
+    width: 40%;
+  }
+  .hero {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  #hero {
+    margin: 50px 0 50px 0;
+  }
+  .h_img {
+    width: 60%;
+  }
+  .h_left h1 {
+    font-size: 5vw;
+  }
+  .h_left h4 {
+    font-size: 3.3vw;
+    margin: 23px 0 19px 0;
+  }
+  .h_left img {
+    width: 80%;
+  }
+  .latest_btn h2 {
+    font-size: 1.4em;
+    letter-spacing: 1px;
+  }
+  .latest_btn {
+    margin: 30px 20px;
+  }
+  .latest_btn button {
+    font-size: 0.8rem;
+    width: 9em;
+    height: 2.1em;
+    padding: 0.5em 0.5em;
+  }
+  .should_block {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 30px;
+    width: 97.5%;
+    margin-left: 2%;
+    margin-bottom: 30px;
+    padding: 30px 0;
+  }
+  .should_right_block h1 {
+    font-size: 5vw;
+  }
+  .should_right_block h3 {
+    margin-left: 42.4%;
+    height: 25px;
+    font-size: 1em;
+  }
+  .should_h3 h3 {
+    width: 34%;
+    margin-left: 33%;
+    font-size: 1em;
+  }
+  .should_right_block h5 {
+    margin: 17px 0;
+    font-size: 1em;
+  }
+  .should_right_block p {
+    font-size: 0.7em;
+  }
+  .should_right_block button {
+    width: 10em;
+    font-size: 1rem;
+  }
+  #jacob {
+    margin: 50px 20px 40px 0;
+  }
+  .jacob {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .j_left {
+    position: relative;
+  }
+  .j_img {
+    width: 50%;
+  }
+  .jacob_arrow {
+    position: absolute;
+    right: -20vw;
+    top: 1vw;
+    width: 36px;
+    height: 36px;
+  }
+  .j_left p {
+    font-size: 2vw;
+    line-height: 20px;
+  }
+  .jacob_arrow {
+    width: 49px;
+    height: 49px;
+  }
+  #sub {
+    margin: 0;
+    padding: 30px 0;
+  }
+  .sub {
+    width: 98%;
+    height: 300px;
+    padding: 50px 0 50px 33px;
+    margin-left: 2%;
+  }
+  .sub_text h1 {
+    font-size: 2em;
+  }
+  .name {
+    width: 35vw;
+    height: 6vh;
+  }
+  .name input {
+    font-size: 3.4vw;
+  }
+  .sub_left button {
+    height: 2em;
+    font-size: 1rem;
+  }
+  .podcast {
+    display: flex;
+    flex-direction: column;
+  }
+  .bus {
+    width: 25em;
+  }
+  .bus h2 {
+    font-size: 1.8rem;
+    line-height: 35px;
+  }
+  .bus h5 {
+    font-size: 1.6em;
+  }
+  #footer {
+    padding: 30px 50px;
+  }
+  .f_img {
+    display: none;
+  }
+  .nav1 a {
+    font-size: 1em;
+  }
+  .footer_cast h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  .icons a {
+    font-size: 1.3em;
+  }
+  .icons {
+    gap: 10px;
+    margin: 18px 0;
+  }
+  .footer {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .nav1 {
+    padding: 13px 13px 13px 0;
+  }
+}
+@media (max-width: 376px) {
+  .container {
+    width: 98%;
+    max-width: 376px;
+  }
+  .header h1 {
+    font-size: 1em;
+  }
+  .latest_btn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .latest_btn h2 {
+    font-size: 2em;
+  }
+  .latest_btn button {
+    width: 10em;
+    font-size: 1rem;
+  }
+  .should_right_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.should_right_block h3 {
+    display: none;
+  }
+  .should_right_block h5 {
+    font-size: 1.1em;
+  }
+  .should_right_block h1 {
+    font-size: 1.3em;
+    line-height: 1.5rem;
+  }
+  .should_right_block p {
+    width: 70%;
+    font-size: 0.8rem;
+    line-height: 1.2em;
+  }
+  .should_block img {
+    width: 70%;
+  }
+  .should_right_block button {
+    width: 12em;
+    height: 2.5em;
+    font-size: 1em;
+  }
+  .j_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .j_left p {
+    font-size: 0.9rem;
+    line-height: 18px;
+    width: 80%;
+  }
+  .jacob_arrow {
+    right: 0;
+  }
+  .sub_text h1 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+  .sub_text h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+  .sub {
+    height: 23rem;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .name {
+    width: 104%;
+  }
+  .bus {
+    width: 90%;
+    height: 250px;
+  }
+  .star {
+    width: 5%;
+    height: 20px;
+  }
+  .bus h2 {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  .bus h5 {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    width: 99.6%;
+    max-width: 320px;
+  }
+  .jacob_arrow {
+    width: 39px;
+    height: 39px;
+  }
+  .sub_text h1 {
+    font-size: 1.2rem;
+  }
+  .sub_text h3 {
+    font-size: 1rem;
+  }
+  .input {
+    gap: 10px;
+  }
+  .sub_left {
+    gap: 19px;
+  }
+  .name {
+    height: 50px;
+    width: 80%;
+  }
+  .name input {
+    font-size: 1rem;
+    width: 50%;
+  }
+  .j_left p {
+    margin: 9px 0;
+  }
+}
